@@ -1,7 +1,8 @@
 
-var Car = function (speed,color){
-  this.speed = speed;
+var Car = function (speed,color,convertible){
+  this.speed = 0;
   this.color = color;
+  this.convertible = convertible
   this.accelerate = function (acceleraterate){
 
 //speed still remains
